@@ -1,19 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>calendar_app</title>
+  <title>Calendar App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #007BFF;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      width: 100%;
+    }
+    .container {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 500px;
+    }
+    a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 15px;
+      text-decoration: none;
+      color: white;
+      background: #007BFF;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+    a:hover {
+      background: #0056b3;
+    }
+  </style>
 </head>
-  <body>
-    <header>
-      <h1>calendar_app</h1>
+<body>
+  <header>
+    <h1>Calendar App</h1>
   </header>
-  <div>
+  <div class="container">
     <p>シフト勤務の方を対象としているカレンダーアプリです。</p>
-    <a href="https://docs.google.com/presentation/d/16PVc78RvIrW3CoOe5SDviOqZW3rrVuTRwyls7uJBTTw/edit?usp=sharing">計画図</a>
-    <a href="https://github.com/hkhb/calendar_app">github</a>
+    <a href="https://docs.google.com/presentation/d/16PVc78RvIrW3CoOe5SDviOqZW3rrVuTRwyls7uJBTTw/edit?usp=sharing" target="_blank">
+      <i class="fa-solid fa-file-powerpoint"></i> 計画図
+    </a>
+    <a href="https://github.com/hkhb/calendar_app" target="_blank">
+      <i class="fa-brands fa-github"></i> GitHub
+    </a>
   </div>
-
 </body>
 </html>

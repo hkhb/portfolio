@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shift-manager</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 20px; /* bodyにパディングを追加 */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start; /* 上に寄せる */
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #007BFF;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      width: 100%;
+      max-width: 1200px; /* headerの幅を最大1200pxに制限 */
+      margin: 0 auto; /* 中央揃え */
+      border-radius: 8px; /* 角を丸くする */
+    }
+    .container {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 500px;
+      margin-top: 20px; /* 上に余白を追加 */
+    }
+    a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 15px;
+      text-decoration: none;
+      color: white;
+      background: #007BFF;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+    a:hover {
+      background: #0056b3;
+    }
+    img {
+      max-width: 100%; /* 親要素に合わせて画像サイズを縮小 */
+      height: auto; /* 高さは自動調整 */
+      border-radius: 8px; /* 画像の角を丸くする */
+      margin-bottom: 20px; /* 画像の下にスペースを追加 */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>shift-manager</h1>
+  </header>
+
+  <div class="container">
+    <h2>開発中</h2>
+    <p>従業員を管理するアプリです。現在、開発が進行中です。</p>
+    <a href="https://github.com/hkhb/shift-manager" target="_blank">GitHub リポジトリ</a>
+  </div>
+
+  <div class="container">
+    <p>画面イメージ</p>
+    <p>勤怠入力ページ</p>
+    <img src="image/shift_maneger_main.png" alt="勤怠入力ページ">
+    <p>ログインページ</p>
+    <img src="image/shift_maneger_login.png" alt="ログインページ">
+  </div>
+
+</body>
+</html>
