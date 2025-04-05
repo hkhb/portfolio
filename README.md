@@ -15,7 +15,7 @@
 - GitHub Actions
 
 ## 画面キャプチャ
-[アプリ画面]./image/screenshot.png
+[アプリ画面](./image/screenshot.png)
 
 ## 工夫した点・苦労した点
 - **基礎的な技術を使用**
