@@ -47,3 +47,6 @@ img {
   border-radius: 8px; /* 画像の角を丸くする */
   margin-bottom: 20px; /* 画像の下にスペースを追加 */
 }
+li {
+  text-align: left;
+}
